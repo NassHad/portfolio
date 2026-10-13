@@ -1,16 +1,25 @@
-import './App.css'
 import Menu from './components/Menu'
 import Presentation from './components/Presentation'
+import About from './components/About'
 import Projects from './components/Projects'
+import Skills from './components/Skills'
+import Experience from './components/Experience'
+import Contact from './components/Contact'
+import Screen from './components/Screen'
 
 function App() {
     return (
         <>
             <Menu />
-            <Presentation />
-            <Projects />
-            {/*<section className='container-3'></section>
-            <section className='container-4'></section>*/}
+            <main>
+                <Screen />
+                <Presentation />
+                <About />
+                <Projects />
+                <Skills />
+                <Experience />
+            </main>
+            <Contact />
         </>
     )
 }

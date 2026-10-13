@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" font-family="system-ui, sans-serif">
+  <rect width="1200" height="750" fill="#4fe191"/>
+  <rect x="120" y="90" width="960" height="600" rx="18" fill="#ffffff"/>
+  <rect x="120" y="90" width="960" height="48" rx="18" fill="#111412" opacity="0.06"/>
+  <circle cx="156" cy="114" r="7" fill="#111412" opacity="0.25"/>
+  <circle cx="180" cy="114" r="7" fill="#111412" opacity="0.25"/>
+  <circle cx="204" cy="114" r="7" fill="#111412" opacity="0.25"/>
+  <text x="180" y="300" font-size="84" font-weight="700" letter-spacing="-3" fill="#111412">Verdure</text>
+  <rect x="180" y="350" width="420" height="16" rx="8" fill="#111412" opacity="0.15"/>
+  <rect x="180" y="384" width="320" height="16" rx="8" fill="#111412" opacity="0.15"/>
+  <rect x="180" y="450" width="180" height="56" rx="28" fill="#006a4e"/>
+  <rect x="680" y="350" width="340" height="280" rx="14" fill="#4fe191"/>
+</svg>
