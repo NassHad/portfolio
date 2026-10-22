@@ -2,6 +2,7 @@ import { useLayoutEffect, useRef } from 'react'
 import { gsap } from '../lib/gsap'
 import { profile } from '../data/portfolio'
 import { SplitText } from 'gsap/SplitText'
+import Screen from './Screen'
 
 export default function Presentation() {
     const container = useRef<HTMLElement>(null)
@@ -49,6 +50,7 @@ export default function Presentation() {
                     <span className='accent'>{profile.role}</span>
                 </span>
             </h1>
+            {/*<Screen />*/}
             <div className='hero-meta'>
                 <p>{profile.tagline}</p>
                 <p className='mono'>

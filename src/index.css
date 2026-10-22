@@ -217,6 +217,19 @@ a {
     }
 }
 
+/* ---------- Screen ---------- */
+.screen {
+    /* Fixé à la fenêtre : reste visible pendant tout le scroll */
+    position: fixed;
+    top: 5rem;
+    left: 25%;
+    z-index: 5;
+    width: 50%;
+    height: 30vw;
+    /* Laisse passer les clics vers la page en dessous */
+    pointer-events: none;
+}
+
 /* ---------- Hero ---------- */
 
 .container-presentation {
